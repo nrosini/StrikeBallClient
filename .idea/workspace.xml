@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="952185a2-4b0b-4252-ac8d-0c1f5df22221" name="Default Changelist" comment="" />
+    <list default="true" id="952185a2-4b0b-4252-ac8d-0c1f5df22221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientsocket/ClientSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientsocket/ClientSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientsocket/Gioco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientsocket/Gioco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientsocket/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientsocket/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientsocket/MulticastClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientsocket/MulticastClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientsocket/Risultati.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientsocket/Risultati.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientsocket/StrikeBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientsocket/StrikeBall.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clientsocket/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -28,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clientsocket/Risultati.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="520">
+              <caret line="48" column="101" selection-start-line="48" selection-start-column="101" selection-end-line="48" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -42,10 +51,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clientsocket/StrikeBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="2784">
+              <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4471#5284#0" expanded="true" />
+                <element signature="e#5283#5284#0" expanded="true" />
+                <element signature="e#5328#6279#0" expanded="true" />
+                <element signature="e#6278#6279#0" expanded="true" />
+                <element signature="e#6323#6959#0" expanded="true" />
+                <element signature="e#6958#6959#0" expanded="true" />
+                <element signature="initializer##0;class#StrikeBall#0" expanded="true" />
+                <element signature="e#16195#16196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clientsocket/MulticastClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="296">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clientsocket/Gioco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="80">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -75,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clientsocket/ClientSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state>
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,23 +110,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/intellij/uiDesigner/core/GridConstraints.java" />
         <option value="$PROJECT_DIR$/src/clientsocket/StrikeBall (Copia in conflitto di HP15 2019-01-23).form" />
-        <option value="$PROJECT_DIR$/src/clientsocket/Gioco.java" />
         <option value="$PROJECT_DIR$/src/clientsocket/Risultati.form" />
-        <option value="$PROJECT_DIR$/src/clientsocket/MulticastClient.java" />
-        <option value="$PROJECT_DIR$/src/clientsocket/Main.java" />
-        <option value="$PROJECT_DIR$/src/clientsocket/Risultati.java" />
-        <option value="$PROJECT_DIR$/src/clientsocket/StrikeBall.java" />
         <option value="$PROJECT_DIR$/src/clientsocket/StrikeBall.form" />
         <option value="$PROJECT_DIR$/src/clientsocket/ClientSocket.java" />
+        <option value="$PROJECT_DIR$/src/clientsocket/Gioco.java" />
+        <option value="$PROJECT_DIR$/src/clientsocket/MulticastClient.java" />
+        <option value="$PROJECT_DIR$/src/clientsocket/StrikeBall.java" />
+        <option value="$PROJECT_DIR$/src/clientsocket/Main.java" />
+        <option value="$PROJECT_DIR$/src/clientsocket/Risultati.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="35" />
     <option name="width" value="887" />
     <option name="height" value="768" />
@@ -118,15 +138,47 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Client Socket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client Socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Client Socket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client Socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Client Socket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client Socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="clientsocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Client Socket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client Socket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="clientsocket" type="462c0819:PsiDirectoryNode" />
+              <item name="StrikeBall" type="e9f4de52:FormNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548509942456" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client Socket(copia)" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549541692795" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documenti" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -196,11 +248,13 @@
       <workItem from="1548516647863" duration="176000" />
       <workItem from="1548524509347" duration="2465000" />
       <workItem from="1548847590471" duration="2078000" />
+      <workItem from="1549355607780" duration="1399000" />
+      <workItem from="1549540491453" duration="1198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49403000" />
+    <option name="totallyTimeSpent" value="52000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -215,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33228347" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33123028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3952756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,7 +278,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32125986" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32018927" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -276,59 +330,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientsocket/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clientsocket/Risultati.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
+    <entry file="uml://MODULES/mdl-Client Socket">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Client Socket</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-Client Socket</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="80.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientsocket/diagramma.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">clientsocket.ClientSocket</node>
+            <node x="" y="">clientsocket.Main</node>
+            <node x="" y="">clientsocket.StrikeBall</node>
+            <node x="" y="">clientsocket.MulticastClient</node>
+            <node x="" y="">clientsocket.Gioco</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="189.0" y="271.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientsocket/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientsocket/MulticastClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientsocket/Gioco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientsocket/ClientSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/clientsocket/Risultati.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="520">
+          <caret line="48" column="101" selection-start-line="48" selection-start-column="101" selection-end-line="48" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clientsocket/StrikeBall.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientsocket/Gioco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientsocket/ClientSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientsocket/MulticastClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clientsocket/StrikeBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+        <state relative-caret-position="2784">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4471#5284#0" expanded="true" />
+            <element signature="e#5283#5284#0" expanded="true" />
+            <element signature="e#5328#6279#0" expanded="true" />
+            <element signature="e#6278#6279#0" expanded="true" />
+            <element signature="e#6323#6959#0" expanded="true" />
+            <element signature="e#6958#6959#0" expanded="true" />
+            <element signature="initializer##0;class#StrikeBall#0" expanded="true" />
+            <element signature="e#16195#16196#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="224.5227272727273" y="0.0">clientsocket.ClientSocket</node>
+    <node x="170.10227272727275" y="1130.0">clientsocket.Main</node>
+    <node x="0.0" y="220.0">clientsocket.StrikeBall</node>
+    <node x="12.647727272727309" y="854.0">clientsocket.MulticastClient</node>
+    <node x="8.761363636363683" y="23.0">clientsocket.Gioco</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="clientsocket.Main" target="clientsocket.ClientSocket">
+      <point x="72.5" y="-26.5" />
+      <point x="329.60227272727275" y="1110.0" />
+      <point x="370.4318181818182" y="1110.0" />
+      <point x="370.4318181818182" y="195.0" />
+      <point x="437.0227272727273" y="195.0" />
+      <point x="85.00000000000001" y="85.0" />
+    </edge>
+    <edge source="clientsocket.StrikeBall" target="clientsocket.ClientSocket">
+      <point x="102.0" y="-292.0" />
+      <point x="255.0" y="195.0" />
+      <point x="267.0227272727273" y="195.0" />
+      <point x="-85.0" y="85.0" />
+    </edge>
+    <edge source="clientsocket.Main" target="clientsocket.StrikeBall">
+      <point x="14.5" y="-26.5" />
+      <point x="271.60227272727275" y="1090.0" />
+      <point x="341.0227272727273" y="1090.0" />
+      <point x="341.0227272727273" y="829.0" />
+      <point x="267.75" y="829.0" />
+      <point x="114.75" y="292.0" />
+    </edge>
+    <edge source="clientsocket.Main" target="clientsocket.MulticastClient">
+      <point x="-14.5" y="-26.5" />
+      <point x="242.60227272727275" y="1110.0" />
+      <point x="227.1477272727273" y="1110.0" />
+      <point x="71.5" y="108.0" />
+    </edge>
+    <edge source="clientsocket.MulticastClient" target="clientsocket.StrikeBall">
+      <point x="71.5" y="-108.0" />
+      <point x="227.1477272727273" y="829.0" />
+      <point x="191.25" y="829.0" />
+      <point x="38.25" y="292.0" />
+    </edge>
+    <edge source="clientsocket.StrikeBall" target="clientsocket.Gioco">
+      <point x="0.0" y="-292.0" />
+      <point x="153.0" y="195.0" />
+      <point x="151.26136363636368" y="195.0" />
+      <point x="47.5" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="189.0" y="9.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

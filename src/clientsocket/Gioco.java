@@ -2,8 +2,8 @@ package clientsocket;
 
 
 public class Gioco {
-    private static String numero;
-    private static String risposta;
+    private static String numero;       //NUMERO RICEVUTO DAL SERVER
+    private static String risposta;     //NUMERO INSERITO DALL'UTENTE
 
     public Gioco(String numero, String risposta) {
 
@@ -12,6 +12,12 @@ public class Gioco {
 
     }
 
+    /**
+     * Questo metodo si occupa di gestire il gioco vero e proprio e restituire i risultati all'utente, in particolare
+     * controlla la stringa prelevata dall'interfaccia grafica inserita dunque dall'utente.
+     * @return restituisce un array di int che verrà poi utilizzato dalla classe risultati per restituire il punteggio
+     * accumulato dall'utente
+     */
     public static  int[] tentativo() {
         boolean preso;
         int risultati[] = new int[3];

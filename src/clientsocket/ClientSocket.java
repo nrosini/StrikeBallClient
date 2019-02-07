@@ -14,27 +14,10 @@ public class ClientSocket {
         this.porta = porta;
     }
 
-    public void apriConnessione() {
-        try {
-            this.client = new Socket(this.hostServer, this.porta);
-        } catch (IOException erroreSocket) {
-            System.err.println("Errore all'apertura del socket");
-        }
-    }
-
-    public void inviaMessaggio() {
-        Scanner inputMerdaa = new Scanner(System.in);
-        try {
-            DataOutputStream dOut = new DataOutputStream(this.client.getOutputStream());
-            System.out.println("Inserisci qualcosa :-)");
-            dOut.writeUTF(inputMerdaa.nextLine());
-            dOut.flush();
-            dOut.close();
-            System.out.println("Stringa inviata");
-            this.chiudiConnessione();
-        } catch (IOException erroreFlusso) { System.err.println("Errore nell'apertura del flusso d'uscita"); }
-    }
-
+    /**
+     * Questo metodo rimane in ascolto del server per ricevere la stringa da sottoporre all'utente
+     * @return restituisce la stringa che l'utente dovrà indovinare
+     */
     public static String riceviMessaggio() {
         String numero = "";
         try {
@@ -47,6 +30,10 @@ public class ClientSocket {
         return numero;
     }
 
+    /**
+     * Invia un messaggio al server che provvederà a rinviarlo in multicast a tutti gli utenti del gruppo
+     * @param messaggio messaggio da inviare preso dal campo di testo dell'interfaccia grafica
+     */
     public static void inviaMessaggioChat(String messaggio) {
         try {
             Socket clientChat = new Socket("localhost",1408);
@@ -57,14 +44,6 @@ public class ClientSocket {
             clientChat.close();
         } catch (IOException e) {
             System.err.println("Errore socket messaggio");
-        }
-    }
-
-    private void chiudiConnessione() {
-        try {
-            ClientSocket.client.close();
-        } catch (IOException erroreSocket) {
-            System.err.println("Errore nella chiusura della connessione");
         }
     }
 }
